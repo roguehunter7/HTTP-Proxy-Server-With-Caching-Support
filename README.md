@@ -1,61 +1,49 @@
 # HTTP-Proxy-Server-With-Caching-Support
 This is the repository for the documentation and Code of the Project "HARDWARE ACCELERATED HTTP/1.1 PROXY SERVER" 
 
-Table of Contents
-
-    Features
-    Installation
-    Usage
-    Configuration
-    Contributing
-    License
 
 Features:
 
-    Acts as an intermediary between client applications and remote servers.
-    Caches responses to improve performance.
-    Handles HTTP requests and responses.
-    Supports HTTP methods such as GET and POST.
-    Manages caching and revalidation of resources.
-    Multithreaded design to handle multiple client connections simultaneously.
+Acts as an intermediary between client applications and remote servers.
+Caches responses to improve performance.
+Handles HTTP requests and responses.
+Supports HTTP methods such as GET and POST.
+Manages caching and revalidation of resources.
+Multithreaded design to handle multiple client connections simultaneously.
 
 Installation:
 
-    Clone the repository:
+Clone the repository:
 
     bash
-
-git clone https://github.com/roguehunter7/HTTP-Proxy-Server-With-Caching-Support.git
+    git clone https://github.com/roguehunter7/HTTP-Proxy-Server-With-Caching-Support.git
 
 Navigate to the project directory:
 
-bash
+    bash
+    cd HTTP-Proxy-Server-With-Caching-Support/src
 
-cd HTTP-Proxy-Server-With-Caching-Support/src
-
-
-Usage
 
    Compile the source code and Start the proxy server:
 
     bash
-
     ./run.sh
 
 Alternate option:
 Assuming you have docker installed you can also just run the following:
 
-  bash
-  sudo docker-compose up
+      bash
+      sudo docker-compose up
 
 
+Usage:
 
-    Configure your web browser to use the proxy server:
+Configure your web browser to use the proxy server:
         Open your browser's settings/preferences.
         Locate the network/proxy settings.
         Set the proxy server address to localhost or 127.0.0.1 and the port to 12345.
 
-    Open your web browser and start browsing. The proxy server will intercept and handle the HTTP requests.
+Open your web browser and start browsing. The proxy server will intercept and handle the HTTP requests.
 
 Configuration
 
