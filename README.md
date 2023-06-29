@@ -15,24 +15,21 @@ Installation:
 
 Clone the repository:
 
-    bash
     git clone https://github.com/roguehunter7/HTTP-Proxy-Server-With-Caching-Support.git
 
 Navigate to the project directory:
 
-    bash
     cd HTTP-Proxy-Server-With-Caching-Support/src
 
 
-   Compile the source code and Start the proxy server:
+Compile the source code and Start the proxy server:
 
-    bash
     ./run.sh
 
 Alternate option:
 Assuming you have docker installed you can also just run the following:
 
-      bash
+      cd HTTP-Proxy-Server-With-Caching-Support/
       sudo docker-compose up
 
 
@@ -48,9 +45,11 @@ Open your web browser and start browsing. The proxy server will intercept and ha
 Configuration
 
 The proxy server listens on port 12345 by default. If you need to change the port or modify other settings, you can edit the proxy.h file and recompile the code.
+
 Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
 License
 
 This project is licensed under the GPLv3 License.
