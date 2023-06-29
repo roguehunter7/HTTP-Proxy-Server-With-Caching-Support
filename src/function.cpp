@@ -1,5 +1,4 @@
 #include "function.h"
-
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <string.h>

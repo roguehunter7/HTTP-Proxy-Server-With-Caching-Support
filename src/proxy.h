@@ -1,6 +1,5 @@
 #include <cstdio>
 #include <cstdlib>
-
 #include "parse.h"
 #include "pthread.h"
 #include "response.h"

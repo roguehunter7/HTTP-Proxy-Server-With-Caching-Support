@@ -1,15 +1,12 @@
 #include "proxy.h"
-
 #include <pthread.h>
 #include <stdio.h>
 #include <string.h>
-
 #include <ctime>
 #include <fstream>
 #include <map>
 #include <unordered_map>
 #include <vector>
-
 #include "client_info.h"
 #include "function.h"
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;

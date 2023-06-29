@@ -1,5 +1,4 @@
 #include <pthread.h>
-
 #include "function.h"
 #include "proxy.h"
 int main() {

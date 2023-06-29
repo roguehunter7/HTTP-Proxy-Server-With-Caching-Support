@@ -6,7 +6,6 @@
 class timemap {
  public:
   std::map<std::string, int> time_map;
-
  public:
   timemap() {
     time_map.insert(std::pair<std::string, int>("Jan", 1));

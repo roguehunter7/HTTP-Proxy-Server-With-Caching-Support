@@ -1,5 +1,4 @@
 #include <pthread.h>
-
 #include <fstream>
 
 #include "function.h"
