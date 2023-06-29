@@ -24,6 +24,7 @@ Navigate to the project directory:
 
 Compile the source code and Start the proxy server:
 
+    chmod +x ./run.sh
     ./run.sh
 
 Alternate option:
